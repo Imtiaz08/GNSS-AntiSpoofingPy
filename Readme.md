@@ -24,7 +24,7 @@ We explore various machine learning algorithms, including:
 
 ### Training and Evaluation
 
-Each selected model is trained on the prepared dataset and evaluated using various performance metrics. This step helps us understand how well each model can detect spoofing attacks.
+Each selected model is trained on the prepared dataset and evaluated using various performance metrics. This step helps us understand how well each model can detect spoofing attacks with higher accuracy.
 
 ### Optimum Model Selection
 
@@ -32,7 +32,7 @@ We compare the performance of the different models and identify the optimum one 
 
 ## Experiment Results
 
-After rigorous testing and evaluation, the [Optimum Model] emerged as the most effective solution for our anti-spoofing algorithm. It showcased remarkable accuracy in distinguishing between clean and spoofed signals across diverse scenarios.
+After rigorous testing and evaluation, the [LogisticRegression](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) and [Support Vector Classifier](http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) emerged as the most effective solution for our anti-spoofing algorithm. It showcased remarkable accuracy in distinguishing between clean and spoofed signals across diverse scenarios.
 
 ## Usage
 
@@ -42,30 +42,19 @@ To explore and use our anti-spoofing algorithm:
    ```shell
    git clone https://github.com/Imtiaz08/GNSS-AntiSpoofingPy.git
    cd GNSS-AntiSpoofingPy
-   ```
+Install the necessary dependencies:
 
-2. Install the necessary dependencies:
-   ```shell
-   pip install -r requirements.txt
-   ```
+pip install -r requirements.txt
+Run the experiment:
 
-3. Run the experiment:
-   ```shell
-   python experiment.py
-   ```
+python experiment.py
+Contribution
+Contributions to GNSS-AntiSpoofingPy are welcomed! If you have any suggestions or new ideas or want to collaborate on a similar project just send me an email and I will respond as soon as possible
 
-## Contribution
+License
+This project is licensed under the MIT License. Check out the LICENSE file for more information.
 
-Contributions to GNSS-AntiSpoofingPy are welcomed! Please refer to our [contribution guidelines](CONTRIBUTING.md) for details on how to participate.
+Contact
+For questions or feedback, feel free to raise an issue on our GitHub repository. You can also shoot me a direct email @ imtiaznabi8@gmail.com
 
-## License
-
-This project is licensed under the MIT License. Check out the [LICENSE](LICENSE) file for more information.
-
-## Contact
-
-For questions or feedback, feel free to raise an issue on our [GitHub repository](https://github.com/Imtiaz08/GNSS-AntiSpoofingPy/issues).
-
----
-*Disclaimer: GNSS-AntiSpoofingPy is a project developed by [Your Name](https://github.com/YourUsername). This project is aimed at enhancing the security of GNSS systems against spoofing attacks and is not affiliated with any official GNSS organization.*
-```
+Disclaimer: GNSS-AntiSpoofingPy is a project developed by [Imtiaz08](https://github.com/Imtiaz08/). This project is aimed at enhancing the security of GNSS systems against spoofing attacks and is not affiliated with any official GNSS organization.
